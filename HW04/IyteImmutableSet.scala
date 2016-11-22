@@ -39,7 +39,7 @@ class IyteImmutableSet {
         }
       }
     } else {
-      println(node.getData() + " already exist in the set!")
+      println(node.getData() +"Set contains it")
     }
     newNode.setHeight(math.max(findHeight(newNode.getLeft), findHeight(newNode.getRight)) + 1);
     newNode;
